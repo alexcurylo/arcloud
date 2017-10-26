@@ -14,6 +14,12 @@ class ViewController: UIViewController, ARSKViewDelegate {
     
     @IBOutlet var sceneView: ARSKView!
     
+    let synthesizer = AVSpeechSynthesizer()
+    let nothingHere = AVSpeechUtterance(string: "Nothing here")
+    let boxLocked = AVSpeechUtterance(string: "This box is locked")
+    let foundKey = AVSpeechUtterance(string: "You found a key")
+    let unlocks = AVSpeechUtterance(string: "The key unlocks the box")
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -56,7 +62,13 @@ class ViewController: UIViewController, ARSKViewDelegate {
     
     func view(_ view: ARSKView, nodeFor anchor: ARAnchor) -> SKNode? {
         // Create and configure a node for the anchor added to the view's session.
-        let labelNode = SKLabelNode(text: "👾")
+        if true {
+            synthesizer.speak(nothingHere)
+            return nil
+        }
+        let labelNode = SKLabelNode(text: "🔒📦")
+        let keyNode = SKLabelNode(text: "🗝")
+        let treasureNode = SKLabelNode(text: "💰")
         labelNode.horizontalAlignmentMode = .center
         labelNode.verticalAlignmentMode = .center
         return labelNode;
