@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA464F291FA24C7100908C25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA464F281FA24C7100908C25 /* AppDelegate.swift */; };
+		FA464F2B1FA24C7100908C25 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA464F2A1FA24C7100908C25 /* Scene.sks */; };
+		FA464F2D1FA24C7100908C25 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA464F2C1FA24C7100908C25 /* Scene.swift */; };
+		FA464F2F1FA24C7100908C25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA464F2E1FA24C7100908C25 /* ViewController.swift */; };
+		FA464F321FA24C7100908C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA464F301FA24C7100908C25 /* Main.storyboard */; };
+		FA464F341FA24C7100908C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA464F331FA24C7100908C25 /* Assets.xcassets */; };
+		FA464F371FA24C7100908C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA464F351FA24C7100908C25 /* LaunchScreen.storyboard */; };
+		FA464F421FA24C7100908C25 /* ARCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA464F411FA24C7100908C25 /* ARCloudTests.swift */; };
+		FA464F4D1FA24C7100908C25 /* ARCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA464F4C1FA24C7100908C25 /* ARCloudUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA464F3E1FA24C7100908C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA464F1D1FA24C7100908C25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA464F241FA24C7100908C25;
+			remoteInfo = ARCloud;
+		};
+		FA464F491FA24C7100908C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA464F1D1FA24C7100908C25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA464F241FA24C7100908C25;
+			remoteInfo = ARCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA464F251FA24C7100908C25 /* ARCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA464F281FA24C7100908C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA464F2A1FA24C7100908C25 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		FA464F2C1FA24C7100908C25 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		FA464F2E1FA24C7100908C25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA464F311FA24C7100908C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA464F331FA24C7100908C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA464F361FA24C7100908C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA464F381FA24C7100908C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA464F3D1FA24C7100908C25 /* ARCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA464F411FA24C7100908C25 /* ARCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCloudTests.swift; sourceTree = "<group>"; };
+		FA464F431FA24C7100908C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA464F481FA24C7100908C25 /* ARCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA464F4C1FA24C7100908C25 /* ARCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCloudUITests.swift; sourceTree = "<group>"; };
+		FA464F4E1FA24C7100908C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA464F221FA24C7100908C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA464F3A1FA24C7100908C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA464F451FA24C7100908C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA464F1C1FA24C7100908C25 = {
+			isa = PBXGroup;
+			children = (
+				FA464F271FA24C7100908C25 /* ARCloud */,
+				FA464F401FA24C7100908C25 /* ARCloudTests */,
+				FA464F4B1FA24C7100908C25 /* ARCloudUITests */,
+				FA464F261FA24C7100908C25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA464F261FA24C7100908C25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA464F251FA24C7100908C25 /* ARCloud.app */,
+				FA464F3D1FA24C7100908C25 /* ARCloudTests.xctest */,
+				FA464F481FA24C7100908C25 /* ARCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA464F271FA24C7100908C25 /* ARCloud */ = {
+			isa = PBXGroup;
+			children = (
+				FA464F281FA24C7100908C25 /* AppDelegate.swift */,
+				FA464F2A1FA24C7100908C25 /* Scene.sks */,
+				FA464F2C1FA24C7100908C25 /* Scene.swift */,
+				FA464F2E1FA24C7100908C25 /* ViewController.swift */,
+				FA464F301FA24C7100908C25 /* Main.storyboard */,
+				FA464F331FA24C7100908C25 /* Assets.xcassets */,
+				FA464F351FA24C7100908C25 /* LaunchScreen.storyboard */,
+				FA464F381FA24C7100908C25 /* Info.plist */,
+			);
+			path = ARCloud;
+			sourceTree = "<group>";
+		};
+		FA464F401FA24C7100908C25 /* ARCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA464F411FA24C7100908C25 /* ARCloudTests.swift */,
+				FA464F431FA24C7100908C25 /* Info.plist */,
+			);
+			path = ARCloudTests;
+			sourceTree = "<group>";
+		};
+		FA464F4B1FA24C7100908C25 /* ARCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA464F4C1FA24C7100908C25 /* ARCloudUITests.swift */,
+				FA464F4E1FA24C7100908C25 /* Info.plist */,
+			);
+			path = ARCloudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA464F241FA24C7100908C25 /* ARCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA464F511FA24C7100908C25 /* Build configuration list for PBXNativeTarget "ARCloud" */;
+			buildPhases = (
+				FA464F211FA24C7100908C25 /* Sources */,
+				FA464F221FA24C7100908C25 /* Frameworks */,
+				FA464F231FA24C7100908C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCloud;
+			productName = ARCloud;
+			productReference = FA464F251FA24C7100908C25 /* ARCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA464F3C1FA24C7100908C25 /* ARCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA464F541FA24C7100908C25 /* Build configuration list for PBXNativeTarget "ARCloudTests" */;
+			buildPhases = (
+				FA464F391FA24C7100908C25 /* Sources */,
+				FA464F3A1FA24C7100908C25 /* Frameworks */,
+				FA464F3B1FA24C7100908C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA464F3F1FA24C7100908C25 /* PBXTargetDependency */,
+			);
+			name = ARCloudTests;
+			productName = ARCloudTests;
+			productReference = FA464F3D1FA24C7100908C25 /* ARCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA464F471FA24C7100908C25 /* ARCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA464F571FA24C7100908C25 /* Build configuration list for PBXNativeTarget "ARCloudUITests" */;
+			buildPhases = (
+				FA464F441FA24C7100908C25 /* Sources */,
+				FA464F451FA24C7100908C25 /* Frameworks */,
+				FA464F461FA24C7100908C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA464F4A1FA24C7100908C25 /* PBXTargetDependency */,
+			);
+			name = ARCloudUITests;
+			productName = ARCloudUITests;
+			productReference = FA464F481FA24C7100908C25 /* ARCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA464F1D1FA24C7100908C25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Trollwerks Inc.";
+				TargetAttributes = {
+					FA464F241FA24C7100908C25 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FA464F3C1FA24C7100908C25 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA464F241FA24C7100908C25;
+					};
+					FA464F471FA24C7100908C25 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA464F241FA24C7100908C25;
+					};
+				};
+			};
+			buildConfigurationList = FA464F201FA24C7100908C25 /* Build configuration list for PBXProject "ARCloud" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA464F1C1FA24C7100908C25;
+			productRefGroup = FA464F261FA24C7100908C25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA464F241FA24C7100908C25 /* ARCloud */,
+				FA464F3C1FA24C7100908C25 /* ARCloudTests */,
+				FA464F471FA24C7100908C25 /* ARCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA464F231FA24C7100908C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA464F2B1FA24C7100908C25 /* Scene.sks in Resources */,
+				FA464F371FA24C7100908C25 /* LaunchScreen.storyboard in Resources */,
+				FA464F341FA24C7100908C25 /* Assets.xcassets in Resources */,
+				FA464F321FA24C7100908C25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA464F3B1FA24C7100908C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA464F461FA24C7100908C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA464F211FA24C7100908C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA464F2F1FA24C7100908C25 /* ViewController.swift in Sources */,
+				FA464F2D1FA24C7100908C25 /* Scene.swift in Sources */,
+				FA464F291FA24C7100908C25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA464F391FA24C7100908C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA464F421FA24C7100908C25 /* ARCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA464F441FA24C7100908C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA464F4D1FA24C7100908C25 /* ARCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA464F3F1FA24C7100908C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA464F241FA24C7100908C25 /* ARCloud */;
+			targetProxy = FA464F3E1FA24C7100908C25 /* PBXContainerItemProxy */;
+		};
+		FA464F4A1FA24C7100908C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA464F241FA24C7100908C25 /* ARCloud */;
+			targetProxy = FA464F491FA24C7100908C25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA464F301FA24C7100908C25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA464F311FA24C7100908C25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA464F351FA24C7100908C25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA464F361FA24C7100908C25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA464F4F1FA24C7100908C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA464F501FA24C7100908C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA464F521FA24C7100908C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556343DW3U;
+				INFOPLIST_FILE = ARCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trollwerks.arcloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA464F531FA24C7100908C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556343DW3U;
+				INFOPLIST_FILE = ARCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trollwerks.arcloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA464F551FA24C7100908C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556343DW3U;
+				INFOPLIST_FILE = ARCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trollwerks.ARCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCloud.app/ARCloud";
+			};
+			name = Debug;
+		};
+		FA464F561FA24C7100908C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556343DW3U;
+				INFOPLIST_FILE = ARCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trollwerks.ARCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCloud.app/ARCloud";
+			};
+			name = Release;
+		};
+		FA464F581FA24C7100908C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556343DW3U;
+				INFOPLIST_FILE = ARCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trollwerks.ARCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARCloud;
+			};
+			name = Debug;
+		};
+		FA464F591FA24C7100908C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556343DW3U;
+				INFOPLIST_FILE = ARCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trollwerks.ARCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA464F201FA24C7100908C25 /* Build configuration list for PBXProject "ARCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA464F4F1FA24C7100908C25 /* Debug */,
+				FA464F501FA24C7100908C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA464F511FA24C7100908C25 /* Build configuration list for PBXNativeTarget "ARCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA464F521FA24C7100908C25 /* Debug */,
+				FA464F531FA24C7100908C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA464F541FA24C7100908C25 /* Build configuration list for PBXNativeTarget "ARCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA464F551FA24C7100908C25 /* Debug */,
+				FA464F561FA24C7100908C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA464F571FA24C7100908C25 /* Build configuration list for PBXNativeTarget "ARCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA464F581FA24C7100908C25 /* Debug */,
+				FA464F591FA24C7100908C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA464F1D1FA24C7100908C25 /* Project object */;
+}
