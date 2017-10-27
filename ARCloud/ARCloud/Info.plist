@@ -49,5 +49,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We&apos;ll show you different content based on which beacon you&apos;re in range of. (You can change this message in the Info.plist file.)</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We&apos;ll show you different content based on which beacon you&apos;re in range of. (You can change this message in the Info.plist file.)</string>
+	<key>NSLocationUsageDescription</key>
+	<string>We&apos;ll show you different content based on which beacon you&apos;re in range of. (You can change this message in the Info.plist file.)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We&apos;ll show you different content based on which beacon you&apos;re in range of. (You can change this message in the Info.plist file.)</string>
 </dict>
 </plist>
