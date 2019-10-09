@@ -1,2 +1,2 @@
 # arcloud
-ARKit experimentation
+ARKit game with iBeacon proximity triggering
